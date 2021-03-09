@@ -1,0 +1,6 @@
+framework module NoxmobiMediationPangleAdapter {
+  umbrella header "NoxmobiMediationPangleAdapter.h"
+
+  export *
+  module * { export * }
+}
