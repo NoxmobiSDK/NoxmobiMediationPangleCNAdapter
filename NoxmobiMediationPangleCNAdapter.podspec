@@ -15,6 +15,6 @@ Pod::Spec.new do |spec|
   spec.ios.vendored_frameworks = 'NoxmobiMediationPangleCNAdapter.framework'
   spec.requires_arc = true
 
-  spec.dependency "Bytedance-UnionAD", "3.4.2.8"
+  spec.dependency "Ads-CN", "3.4.2.8"
 
 end
