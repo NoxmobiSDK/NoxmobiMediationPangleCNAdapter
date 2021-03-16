@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "NoxmobiMediationPangleCNAdapter"
-  spec.version      = "3.4.2.8.0" # Mark
+  spec.version      = "3.4.2.8.1" # Mark
   spec.summary      = "Noxmobi ad mediation adapter for Pangle in China."
   spec.homepage     = "https://github.com/NoxmobiSDK/NoxmobiMediationPangleCNAdapter"
   spec.license      = "MIT"
@@ -12,7 +12,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/NoxmobiSDK/NoxmobiMediationPangleCNAdapter.git", :tag => "#{spec.version}" }
   spec.source_files = "NoxmobiMediationPangleAdapter.framework/Headers/*.{h}"
   spec.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
-  spec.ios.vendored_frameworks = 'NoxmobiMediationPangleCNAdapter.framework'
+  spec.ios.vendored_frameworks = 'NoxmobiMediationPangleAdapter.framework'
   spec.requires_arc = true
 
   spec.dependency "Ads-CN", "3.4.2.8"
