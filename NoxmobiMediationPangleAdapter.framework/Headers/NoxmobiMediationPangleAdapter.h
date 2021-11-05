@@ -9,6 +9,6 @@
 
 #import <Foundation/Foundation.h>
 
-#define NoxmobiMediationPangleAdapterVersion @"3.9.0.4.0"
+#define NoxmobiMediationPangleAdapterVersion @"4.0.0.2.0"
 
 
